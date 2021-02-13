@@ -36,6 +36,10 @@ describe('Unit: canary/utils/serializers/output/utils/url', function () {
                 codeinjection_head: 'codeinjectionHead',
                 codeinjection_foot: 'codeinjectionFoot',
                 episode_number: 'episodeNumber',
+                episode_description: 'episodeDescription',
+                audio_url: 'audioUrl',
+                audio_duration: 'audioDuration',
+                audio_size: 'audioSize',
                 feature_image: 'featureImage',
                 posts_meta: {
                     og_image: 'ogImage',

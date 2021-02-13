@@ -57,6 +57,10 @@ module.exports = {
         codeinjection_head: {type: 'text', maxlength: 65535, nullable: true},
         codeinjection_foot: {type: 'text', maxlength: 65535, nullable: true},
         episode_number: {type: 'integer', nullable: true, unsigned: true},
+        episode_description: {type: 'string', maxlength: 4000, nullable: true},
+        audio_url: {type: 'text', maxlength: 2000, nullable: true},
+        audio_duration: {type: 'string', maxlength: 24, nullable: true},
+        audio_size: {type: 'integer', nullable: true, unsigned: true},
         custom_template: {type: 'string', maxlength: 100, nullable: true},
         canonical_url: {type: 'text', maxlength: 2000, nullable: true},
         '@@UNIQUE_CONSTRAINTS@@': [
