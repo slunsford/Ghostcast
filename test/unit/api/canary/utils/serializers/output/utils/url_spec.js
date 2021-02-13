@@ -35,6 +35,7 @@ describe('Unit: canary/utils/serializers/output/utils/url', function () {
                 custom_excerpt: 'customExcerpt',
                 codeinjection_head: 'codeinjectionHead',
                 codeinjection_foot: 'codeinjectionFoot',
+                episode_number: 'episodeNumber',
                 feature_image: 'featureImage',
                 posts_meta: {
                     og_image: 'ogImage',

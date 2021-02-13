@@ -56,6 +56,7 @@ module.exports = {
         custom_excerpt: {type: 'string', maxlength: 2000, nullable: true, validations: {isLength: {max: 300}}},
         codeinjection_head: {type: 'text', maxlength: 65535, nullable: true},
         codeinjection_foot: {type: 'text', maxlength: 65535, nullable: true},
+        episode_number: {type: 'integer', nullable: true, unsigned: true},
         custom_template: {type: 'string', maxlength: 100, nullable: true},
         canonical_url: {type: 'text', maxlength: 2000, nullable: true},
         '@@UNIQUE_CONSTRAINTS@@': [
